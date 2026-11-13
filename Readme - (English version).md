@@ -257,10 +257,9 @@ source install/setup.bash
 | :--- | :---: | :---: |
 | **Test 1 — Consecutive Collision-Free Laps** | `10 / 10 laps` | ✅ Completed |
 | **Test 2 — Fastest Lap Time** | `41.229 s` | ✅ Completed |
-| **Distance Traveled per Lap (Racing Line)** | `~274.8 m / lap` *(measured via `/ego_racecar/odom`)* | ✅ Verified |
-| **Total Distance Traveled (10 Laps)** | `~2748.0 m` | ✅ Verified |
+| **Distance Traveled per Lap (Racing Line)** | `~376.81 m / lap` *(measured via `/ego_racecar/odom`)* | ✅ Verified |
 | **Peak Velocity on Main Straight** | `10.2 m/s` | ✅ Verified |
 | **RViz Trajectory Visualization** | Active via `/ftg_trajectory_marker` (`LINE_STRIP`) & `/ftg_path` | ✅ Verified |
 
 ### 🎥 Video Evidence
-* **Demonstration Video (Vehicle navigating Zandvoort + Visible Lap Counter + Live Lap Timer + Distance & RViz Trajectory):** `[Insert YouTube / Google Drive link here]`
+* **Demonstration Video (Vehicle navigating Zandvoort + Visible Lap Counter + Live Lap Timer + Distance & RViz Trajectory):** `[https://youtu.be/idIuEAnc6hQ]`
