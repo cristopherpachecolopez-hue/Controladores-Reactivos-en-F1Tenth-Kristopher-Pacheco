@@ -247,14 +247,13 @@ source install/setup.bash
 
 ### Resumen de Desempeño en el Circuito Zandvoort (Serie de 10 Vueltas)
 
-| Prueba | Métrica Evaluada | Resultado Obtenido | Estado |
-| :--- | :--- | :---: | :---: |
-| **Prueba 1** | 10 vueltas consecutivas sin colisión | `10 / 10 vueltas` | ✅ Completado |
-| **Prueba 2** | Mejor tiempo de vuelta registrado | `43.471 s` | ✅ Completado |
-| **Velocidad Punta** | Velocidad máxima alcanzada en recta | `10.2 m/s` | ✅ Verificado |
-| **Distancia recorrida por vuelta (línea de carrera)** | `~376.81 m / vuelta` ✅ Verificado |
+| Métrica Evaluada | Resultado Obtenido | Estado |
+| :--- | :---: | :---: |
+| **10 vueltas consecutivas sin colisión** | `10 / 10 vueltas` | ✅ Completado |
+| **Mejor tiempo de vuelta registrado** | `43.471 s` | ✅ Completado |
+| **Velocidad máxima alcanzada en recta** | `10.2 m/s` | ✅ Verificado |
+| **Distancia recorrida por vuelta (línea de carrera)** | `~376.81 m / vuelta`| ✅ Verificado |
 | **Velocidad punta alcanzada en recta principal** | `10.2 m/s` | ✅ Verificado |
-| **Visualización de trayectoria por vuelta en RViz** | Activa en `/ftg_trajectory_marker` y `/ftg_path` (con reinicio y cambio de color por vuelta) | ✅ Verificado |
 
 ### 🎥 Video de Evidencia
 * **Enlace al video demostrativo (RViz + Contador de Vueltas + Cronómetro en vivo):** `[https://youtu.be/idIuEAnc6hQ]`
