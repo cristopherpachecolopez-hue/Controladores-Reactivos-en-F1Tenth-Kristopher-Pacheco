@@ -262,4 +262,4 @@ source install/setup.bash
 | **RViz Trajectory Visualization** | Active via `/ftg_trajectory_marker` (`LINE_STRIP`) & `/ftg_path` | ✅ Verified |
 
 ### 🎥 Video Evidence
-* **Demonstration Video (Vehicle navigating Zandvoort + Visible Lap Counter + Live Lap Timer + Distance & RViz Trajectory):** `[https://youtu.be/idIuEAnc6hQ]`
+* **Demonstration Video (Vehicle navigating Zandvoort + Visible Lap Counter + Live Lap Timer + Distance & RViz Trajectory):** `[https://youtu.be/Tjk3GWi4kjk]`
