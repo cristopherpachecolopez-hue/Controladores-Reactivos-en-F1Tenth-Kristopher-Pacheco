@@ -256,4 +256,4 @@ source install/setup.bash
 | **Velocidad punta alcanzada en recta principal** | `10.2 m/s` | ✅ Verificado |
 
 ### 🎥 Video de Evidencia
-* **Enlace al video demostrativo (RViz + Contador de Vueltas + Cronómetro en vivo):** `[https://youtu.be/idIuEAnc6hQ]`
+* **Enlace al video demostrativo (RViz + Contador de Vueltas + Cronómetro en vivo):** `[https://youtu.be/Tjk3GWi4kjk]`
