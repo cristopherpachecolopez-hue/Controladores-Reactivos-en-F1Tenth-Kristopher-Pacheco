@@ -136,7 +136,7 @@ En el panel **Displays** agregar mediante **Add -> By topic**:
 * `/ftg_trajectory_marker` (`Marker`): Línea de trayectoria reiniciada con cambio de color en cada vuelta (o activar `Path` en `/ftg_path`).
 
 ---
-## Rosbags y Datos de Telemetría (CSV Unificado)
+## Datos Grabados Rosbags y Datos de Telemetría (CSV Unificado)
 
 Los tópicos `/scan`, `/ego_racecar/odom` y `/drive` fueron grabados con `ros2 bag record` y sincronizados en un único archivo `.csv` mediante `scripts/bag_to_csv.py`, incluyendo tiempo, posición (`x, y, z, yaw`), velocidad lineal y angular, comandos de control (`speed, steering_angle`) y mediciones del LiDAR.
 
