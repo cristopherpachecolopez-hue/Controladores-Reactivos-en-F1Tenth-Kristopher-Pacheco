@@ -136,13 +136,13 @@ En el panel **Displays** agregar mediante **Add -> By topic**:
 * `/ftg_trajectory_marker` (`Marker`): Línea de trayectoria reiniciada con cambio de color en cada vuelta (o activar `Path` en `/ftg_path`).
 
 ---
+## Rosbags y Datos de Telemetría (CSV Unificado)
 
-## 6. Resultados y videos de evidencia
+Los tópicos `/scan`, `/ego_racecar/odom` y `/drive` fueron grabados con `ros2 bag record` y sincronizados en un único archivo `.csv` mediante `scripts/bag_to_csv.py`, incluyendo tiempo, posición (`x, y, z, yaw`), velocidad lineal y angular, comandos de control (`speed, steering_angle`) y mediciones del LiDAR.
 
-| Prueba | Condición | Vueltas sin colisión | Mejor tiempo / Distancia por vuelta |
-| :--- | :--- | :---: | :---: |
-| **Prueba 1** | Zandvoort con 5 obstáculos estáticos | `10 / 10` | `[Completar con tu mejor tiempo y distancia]` |
-| **Prueba 2** | Zandvoort con 2 robots (5 m + rebase) | `10 / 10` | `[Completar con tu mejor tiempo y distancia]` |
 
-* **Video Prueba 1 (5 obstáculos estáticos):** `[Insertar enlace]`
-* **Video Prueba 2 (Obstáculo dinámico y rebase):** `[Insertar enlace]`
+* **Parte 2  — Rebase Dinámico (Rosbag + CSV):** `[https://drive.google.com/file/d/1AdhiACzEYLgwOrMGtZ2QGZklbBXNh3zn/view?usp=drive_link]`
+
+### ViDEO
+
+https://youtu.be/WKZRyJAe5v0 
