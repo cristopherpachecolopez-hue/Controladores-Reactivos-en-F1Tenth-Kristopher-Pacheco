@@ -103,3 +103,14 @@ stheta: 1.22
 Update `~/ros2_ws/src/f1tenth_gym_ros/config/sim.yaml`:
 ```yaml
 map_path: '/home/kristopher/ros2_ws/src/f1tenth_gym_ros/
+
+
+## VIDEO
+
+https://youtu.be/WKZRyJAe5v0
+
+## Rosbag Recording and Unified Telemetry CSV
+
+During the combined scenario (5 static obstacles + 2 vehicles overtaking), the `/scan`, `/ego_racecar/odom`, and `/drive` topics were recorded using `ros2 bag record` and synchronized into a single `.csv` file with `scripts/bag_to_csv.py`. Each row combines timestamp, vehicle position (`pos_x`, `pos_y`, `pos_z`, `yaw_rad`), linear and angular velocities (`vel_linear_x`, `vel_linear_y`, `vel_angular_z`), Ackermann drive commands (`drive_speed`, `drive_steering_angle`), and LiDAR scan ranges.
+
+* **Rosbag + Unified CSV (Google Drive):** `[https://drive.google.com/file/d/1AdhiACzEYLgwOrMGtZ2QGZklbBXNh3zn/view?usp=sharing]`
